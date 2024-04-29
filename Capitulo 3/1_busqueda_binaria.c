@@ -1,6 +1,6 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    Capítulo 3: Arreglos o arrays, if-else, condiciones
+    Capítulo 3: Control de flujo.
     herramientas: funciones, arreglos
 
     Ejercicio: Busqueda binaria, algoritmo "Bin search".
