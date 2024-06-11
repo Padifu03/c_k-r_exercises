@@ -1,2 +1,0 @@
-Test text to push commit at github.
-Test remote branch on github with this commit.
