@@ -1,16 +1,15 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
     Capítulo 4: Punteros.
-    herramientas: punteros, memoria dinámica.
-    Librería obtenida del libro de K&R.
+    herramientas: punteros, memoria dinámica, arreglos.
 */
-#include "stddef.h"
+#include "gestor_buffer.h"
 
-#define ALLOCSIZE   1000000
-
+// PRIVATE VARIABLES
 static char allocbuf[ALLOCSIZE];
 static char *pallocbuf = allocbuf;
 
+// FUNCTIONS & METHODS
 char *alloc(int n)
 {
     int ret_val = NULL;
